@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Школа Diez</title>
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+
+
+<body>
+
+
+	<header class="page-header">
+			<div class="warp">
+				<div class="page-header__row">	
+					<span class="logo">Diez</span>
+					<nav class="page-header__nav main-nav">
+						<ul class="main-nav__list">
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Направления</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link">О школе</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Видео</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<span id="burger" class="burger"></span>
+				</div>
+			</div>
+	</header>	
+
+
+<main>	
+
+
+
+	<section class="promo" id="promo">
+		<div class="warp">
+			<div class="promo__row">
+				<div class="promo__info">
+					<h1 class="promo__title promo__title--desktop">Diez — школа музыкального искусства</h1>
+					<h2 class="promo__title promo__title--mobile">Школа музыкального искусства</h2>
+					<p class="promo__slogan promo__slogan--desktop">Научим петь, играть на инструментах, не бояться сцены и получать удовольствие от музыки</p>
+					<p class="promo__slogan promo__slogan--mobile">Научим петь, играть на инструментах, получать удовольствие от музыки и не бояться сцены</p>
+					<a class="button promo__button" href="#">Вводный урок</a>
+				</div>
+
+
+				<form class="form form--grey">
+					<h3 class="form__title">Вводный урок</h3>
+					<p class="form__description">Попробуй любые направления бесплатно</p>
+					<input class="form__control form__control--grey" placeholder="Имя" type="text" id="name">
+					<input class="form__control form__control--grey" placeholder="Телефон" type="tel" id="phone">
+					<select class="form__control form__control--grey" name="directions" id="directions">
+						<option>Направления</option>
+						<option>Вокал</option>
+						<option>Гитара</option>
+						<option>Фортепиано</option>
+						<option>Лекции</option> 
+					</select>
+					<input type="submit" name="" value="записаться" class="submit submit--grey">
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="directions" id="directions">
+		<div class="warp">
+			<div class="row directions__row">
+				<div class="col">
+					<h2 class="directions__title">Растим музыкантов</h2>
+				</div>
+				<div class="col col--5 direction direction--guitar">
+					<h3 class="direction__title">Гитара</h3>
+					<p class="direction__txt direction__txt--desktop">Хочешь играть как Джими Хендрикс, Би Би Кинг или Андреас Сеговия— мы научим</p>
+					<p class="direction__txt direction__txt--mobile">Начни играть, как Джими Хендрикс</p>
+					<p class="direction__price">1 урок от 800₽</p>
+				</div>
+				<div class="col col--lg-2 direction direction--vocal">
+					<h3 class="direction__title">Вокал</h3>
+					<p class="direction__txt direction__txt--desktop">Академический, рок, эстрадный, джазовый</p>
+					<p class="direction__txt direction__txt--mobile">Пой, как Селин Дион и Эми Вайнхаус</p>
+				</div>
+
+				<div class="col col--5 direction direction--pianist">
+					<h3 class="direction__title">Фортепиано</h3>
+					<p class="direction__txt">Чувствуй клавиши, как Людовико Эйнауди</p>
+				</div>
+
+
+				<div class="col col--lg-1 direction direction--lectures">
+					<h3 class="direction__title">Лекции</h3>
+					<p class="direction__txt direction__txt--desktop">Подтяни свои знания в теории музыки</p>
+				</div>
+				<div class="col col--lg-1 direction direction--all">
+					<a class="direction__title direction__title--all" href="#">Все<br>направления</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="advantages" id="advantages">
+		<div class="warp">
+			<div class="row">
+				<div class="col col--lg-2">
+					<div class="row row__width">
+						<div class="col col--lg-4">
+							<h2 class="advantages__title">Задаём темп</h2>
+						</div>
+						<div class="col col--lg-2">
+							<div class="advantages__article advantages__article--structure">
+								<h3 class="direction__title padding-left">Состав</h3>
+								<p class=" direction__txt direction__txt--desktop padding-left">Тебя будут обучать профессионалы с высшим музыкальным образованием</p>
+								<p class="direction__txt direction__txt--mobile padding-left">Учись только у профессионалов</p>
+							</div>
+						</div>
+						<div class="col col--lg-2">
+							<div class="advantages__article advantages__article--result">
+								<h3 class="direction__title padding-left">Результат</h3>
+								<p class="direction__txt direction__txt--desktop padding-left">Выступи на отчётном концерте через три месяца обучения</p>
+								<p class="direction__txt direction__txt--mobile padding-left">Выступай на отчётных концертах</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col col--lg-2">
+					<div class="row"> 
+						<div class="col col--lg-2 studio__pl_5">
+							<div class="advantages__article advantages__article--studio">
+								<h3 class="direction__title padding-left">Студия</h3>
+								<p class="direction__txt direction__txt--desktop padding-left">Запиши свою песню в нашей студии звукозаписи, одна песня в месяц бесплатно</p>
+								<p class="direction__txt direction__txt--mobile padding-left">Записывай песни каждый месяц</p>
+							</div>
+						</div>
+
+						<a class="advantages__button" href="#">Вводный <br>  урок</a>
+
+						<div class="col col--lg-2 advantages__form form_pl_3">
+							<form class="advantages__article form form--yellow">
+								<h3 class="form__title">Вводный урок</h3>
+								<p class="form__description">Попробуй любые направления бесплатно</p>
+								<input class="form__control form__control--yellow" placeholder="Имя" type="text" id="name">
+								<input class="form__control form__control--yellow" placeholder="Телефон" type="tel" id="phone">
+									<select class="form__control form__control--yellow" name="directions" id="directions">
+										<option>Направления</option>
+										<option>Вокал</option>
+										<option>Гитара</option>
+										<option>Фортепиано</option>
+										<option>Лекции</option> 
+									</select>
+								<input type="submit" name="" value="записаться" class="submit submit--yellow">
+			            	</form>
+			            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<section class="video" id="video">
+			<div class="warp">
+				<div class="row video__row">
+					<div class="col">
+						<h2 class="video__title">В стенах школы</h2>
+					</div>
+					
+					<article class="col col--lg-1 col--6 video__block video__block--active">
+						<h3 class="video__article-title">Зимняя вишня</h3>
+						<p class="video__article-text">Заключительный зимний концерт 2017 года выступало 97 учеников</p>
+						<button class="video__button"></button>
+					</article>	
+
+					<div class="col col--lg-1">
+						<div class="video__block--desktop">
+							<article class="video__block video__block--2">
+								<h3 class="video__article-title">Янг Чжо</h3>
+								<p class="video__article-text">Репетиция сольной партии скрипки</p>
+								<button class="video__button"></button>
+							</article>
+							<article class="video__block video__block--3">
+								<h3 class="video__article-title">Летний штиль</h3>
+								<p class="video__article-text">За кулисами концерта</p>
+								<button class="video__button"></button>
+							</article>
+							<article class="video__block video__block--4">
+								<h3 class="video__article-title">Сергей Трофимов</h3>
+								<p class="video__article-text">ЛЮБЭ — Выйду в поле с конём</p>
+								<button class="video__button"></button>
+							</article>
+						</div>	
+
+						<div class="video-slider" id="video-slider">
+							<article class="video__block video__block--1">
+								<h3 class="video__article-title">Зимняя вишня</h3>
+								<p class="video__article-text">Финальный концерт 2017 года</p>
+								<button class="video__button"></button>
+							</article>
+							<article class="video__block video__block--2">
+								<h3 class="video__article-title">Янг Чжо</h3>
+								<p class="video__article-text">Репетиция сольной партии скрипки</p>
+								<button class="video__button"></button>
+							</article>
+							<article class="video__block video__block--3">
+								<h3 class="video__article-title">Летний штиль</h3>
+								<p class="video__article-text">За кулисами концерта</p>
+								<button class="video__button"></button>
+							</article>
+							<article class="video__block video__block--4">
+								<h3 class="video__article-title">Сергей Трофимов</h3>
+								<p class="video__article-text">ЛЮБЭ — Выйду в поле с конём</p>
+								<button class="video__button"></button>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<section class="contacts" id="contacts">
+		<div class="warp">
+			<div class="row contacts__row">
+				<div class="col col--lg-3">
+					<div class="col contacts__text">
+						<h2 class="contacts__title">Ждём тебя</h2>
+						<p class="contacts__adress">+7 (812) 566 56 56 <br> СПБ, 6-я Линия ВО, 42</p>
+					</div>
+					
+					<div class="col col--lg-3 map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.4168096531696!2d30.277480376932285!3d59.94181882750023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963125ca62971b%3A0x310119609c7909f7!2zNy3RjyDQu9C40L0uINCSLtCeLiwgNDIsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTkxNzg!5e0!3m2!1sru!2sru!4v1531319747686" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+					<div class="button contacts__button">Вводный урок</div>
+				</div>
+				<div class="contacts__form col col--lg-1">
+					<form class="form form--yellow mh_580">
+						<h3 class="form__title">Вводный урок</h3>
+	                	<p class="form__description">Попробуй любые направления бесплатно</p>
+	                	<input class="form__control form__control--yellow" placeholder="Имя" type="text" id="name">
+	                	<input class="form__control form__control--yellow" placeholder="Телефон" type="tel" id="phone">
+	              		<select class="form__control form__control--yellow" name="directions" id="directions">
+	              			<option>Направления</option>
+		      						<option>Вокал</option>
+						    			<option>Гитара</option>
+						    			<option>Фортепиано</option>
+						    			<option>Лекции</option> 
+	              		</select>
+						<input type="submit" name="" value="записаться" class="submit submit--yellow">
+			        </form>
+				</div>
+				
+			</div>		
+		</div>
+	</section>
+</main>
+
+
+
+<footer class="footer">
+    <div class="warp">
+	    <div class="row footer__row">
+			<div class="col col--lg-2">
+				<a href="#" class="logo">Diez</a>
+			</div>
+			<div class="col col--lg-2 footer__social-bar social-bar_pr">
+		        <a title="youtube" href="#" class="footer__social-link">youtube</a>
+		        <a title="instagram" href="#" class="footer__social-link">instagram</a>
+		        <a title="facebook" href="#" class="footer__social-link">facebook</a>
+		        <a title="vkontakte" href="#" class="footer__social-link">vkontakte</a>
+		    </div>
+	    </div>
+    </div>
+</footer>
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.js"></script>
+
+
+</body>
+</html>
